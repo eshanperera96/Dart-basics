@@ -18,6 +18,8 @@ class Dog extends Animal {
 
 	void bark() {
 		print("Bark !");
+		print("$color");
+		print("$breed");
 	}
 }
 
@@ -27,5 +29,6 @@ class Cat extends Animal {
 
 	void meow() {
 		print("Meow !");
+		print("$color");
 	}
 }
